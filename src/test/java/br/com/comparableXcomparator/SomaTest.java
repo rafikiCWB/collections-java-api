@@ -12,6 +12,8 @@ class SomaTest {
 
     @Test
     public void somar(){
+
         assertEquals(23, soma.somar(11,12));
+
     }
 }
