@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5fb9318-81b3-4d01-941b-937337cb6942" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparableXcomparator/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparableXcomparator/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparableXcomparator/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparableXcomparator/Soma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparableXcomparator/listas/CarrinhoDeCompras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparableXcomparator/listas/Item.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/comparableXcomparator/SomaTest.java" afterDir="false" />
+    <list default="true" id="b5fb9318-81b3-4d01-941b-937337cb6942" name="Changes" comment="feat: simple test">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +59,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.17888564",
     "project.structure.side.proportion": "0.25879917",
     "settings.editor.selected.configurable": "vcs.Git",
@@ -94,7 +77,7 @@
       <recent name="br.com.comparablexcomparator.listas" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ItemKt">
+  <component name="RunManager" selected="Application.Program">
     <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.listas.CarrinhoDeCompras" />
       <module name="collections-java-api" />
@@ -108,9 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemInKKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.listas.ItemInKKt" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.Program" />
       <module name="collections-java-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.comparablexcomparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Kotlin.ItemKt" />
         <item itemvalue="Application.CarrinhoDeCompras" />
         <item itemvalue="Kotlin.ItemInKotlinKt" />
         <item itemvalue="Kotlin.ItemInKotlinKt (1)" />
-        <item itemvalue="Kotlin.ItemInKKt" />
       </list>
     </recent_temporary>
   </component>
@@ -168,12 +157,34 @@
       <workItem from="1724129871857" duration="4810000" />
       <workItem from="1724284038339" duration="1205000" />
       <workItem from="1724287419294" duration="189000" />
-      <workItem from="1724435398311" duration="1059000" />
+      <workItem from="1724435398311" duration="1402000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: projeto criado">
+      <option name="closed" value="true" />
+      <created>1724436595071</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724436595071</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: simple test">
+      <option name="closed" value="true" />
+      <created>1724436632531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724436632531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: projeto criado" />
+    <MESSAGE value="feat: simple test" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: simple test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
