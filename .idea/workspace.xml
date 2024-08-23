@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5fb9318-81b3-4d01-941b-937337cb6942" name="Changes" comment="feat: simple test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/Program.java" afterDir="false" />
+    <list default="true" id="b5fb9318-81b3-4d01-941b-937337cb6942" name="Changes" comment="feat: exemplo lista genérica">
       <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/listas/CarrinhoDeCompras.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/listas/Item.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/comparableXcomparator/SomaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/comparableXcomparator/SomaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,36 +37,36 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CarrinhoDeCompras.executor": "Run",
-    "Application.Program.executor": "Run",
-    "Application.br.com.comparablexcomparator.Program.executor": "Run",
-    "JUnit.All in collections-java-api.executor": "Run",
-    "Kotlin.ItemInKKt.executor": "Run",
-    "Kotlin.ItemInKotlinKt (1).executor": "Run",
-    "Kotlin.ItemInKotlinKt.executor": "Run",
-    "Kotlin.ItemKt.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.preview.features.used": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.17888564",
-    "project.structure.side.proportion": "0.25879917",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CarrinhoDeCompras.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.com.comparablexcomparator.Program.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in collections-java-api.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ItemInKKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ItemInKotlinKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ItemInKotlinKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ItemKt.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17888564&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.25879917&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -81,7 +78,7 @@
       <recent name="br.com.comparablexcomparator.listas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.CarrinhoDeCompras">
     <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.listas.CarrinhoDeCompras" />
       <module name="collections-java-api" />
@@ -131,9 +128,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarrinhoDeCompras" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Kotlin.ItemKt" />
-        <item itemvalue="Application.CarrinhoDeCompras" />
         <item itemvalue="Kotlin.ItemInKotlinKt" />
         <item itemvalue="Kotlin.ItemInKotlinKt (1)" />
       </list>
@@ -161,7 +158,8 @@
       <workItem from="1724129871857" duration="4810000" />
       <workItem from="1724284038339" duration="1205000" />
       <workItem from="1724287419294" duration="189000" />
-      <workItem from="1724435398311" duration="1746000" />
+      <workItem from="1724435398311" duration="3214000" />
+      <workItem from="1724449585534" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="feat: projeto criado">
       <option name="closed" value="true" />
@@ -187,7 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724437126603</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: simple test">
+      <option name="closed" value="true" />
+      <created>1724437185536</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724437185536</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: exemplo lista genérica">
+      <option name="closed" value="true" />
+      <created>1724437216495</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724437216495</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +210,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: projeto criado" />
     <MESSAGE value="feat: simple test" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: simple test" />
+    <MESSAGE value="feat: exemplo lista genérica" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exemplo lista genérica" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
