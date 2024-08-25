@@ -1,4 +1,4 @@
-package br.com.comparablexcomparator;
+package br.com.comparablexcomparator.generics;
 // Lista genérica
 public class Box<T> {
 

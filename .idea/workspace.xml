@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5fb9318-81b3-4d01-941b-937337cb6942" name="Changes" comment="feat: exemplo lista genérica">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/listas/CarrinhoDeCompras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/listas/Item.kt" afterDir="false" />
+    <list default="true" id="b5fb9318-81b3-4d01-941b-937337cb6942" name="Changes" comment="feat: List shopping cart">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/listas/CatalogoLivros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/generics/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/generics/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Eclipse Adoptium/jdk-21.0.4.7-hotspot/lib/src.zip!/java.base/java/lang/Comparable.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -37,37 +46,43 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CarrinhoDeCompras.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Application.br.com.comparablexcomparator.Program.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in collections-java-api.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ItemInKKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ItemInKotlinKt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ItemInKotlinKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ItemKt.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17888564&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.25879917&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CarrinhoDeCompras.executor": "Run",
+    "Application.CatalogoLivros.executor": "Run",
+    "Application.Program.executor": "Run",
+    "Application.br.com.comparablexcomparator.Program.executor": "Run",
+    "JUnit.All in collections-java-api.executor": "Run",
+    "Kotlin.ItemInKKt.executor": "Run",
+    "Kotlin.ItemInKotlinKt (1).executor": "Run",
+    "Kotlin.ItemInKotlinKt.executor": "Run",
+    "Kotlin.ItemKt.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rafae/IdeaProjects/logic/collections-java-api",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17888564",
+    "project.structure.side.proportion": "0.25879917",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.comparablexcomparator.listas" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -78,7 +93,7 @@
       <recent name="br.com.comparablexcomparator.listas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarrinhoDeCompras">
+  <component name="RunManager" selected="Application.Program">
     <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.listas.CarrinhoDeCompras" />
       <module name="collections-java-api" />
@@ -92,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.Program" />
+    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.listas.CatalogoLivros" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.comparablexcomparator.*" />
+          <option name="PATTERN" value="br.com.comparablexcomparator.listas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,9 +120,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemInKotlinKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ItemInKotlinKt" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.generics.Program" />
       <module name="collections-java-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.comparablexcomparator.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarrinhoDeCompras" />
         <item itemvalue="Application.Program" />
+        <item itemvalue="Application.CatalogoLivros" />
+        <item itemvalue="Application.CarrinhoDeCompras" />
         <item itemvalue="Kotlin.ItemKt" />
         <item itemvalue="Kotlin.ItemInKotlinKt" />
-        <item itemvalue="Kotlin.ItemInKotlinKt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +180,12 @@
       <workItem from="1724284038339" duration="1205000" />
       <workItem from="1724287419294" duration="189000" />
       <workItem from="1724435398311" duration="3214000" />
-      <workItem from="1724449585534" duration="977000" />
+      <workItem from="1724449585534" duration="1802000" />
+      <workItem from="1724451962694" duration="3465000" />
+      <workItem from="1724458423779" duration="7814000" />
+      <workItem from="1724581809230" duration="12000" />
+      <workItem from="1724581844878" duration="1377000" />
+      <workItem from="1724618797721" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="feat: projeto criado">
       <option name="closed" value="true" />
@@ -201,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724437216495</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: List shopping cart">
+      <option name="closed" value="true" />
+      <created>1724450811004</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724450811004</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +245,8 @@
     <MESSAGE value="feat: projeto criado" />
     <MESSAGE value="feat: simple test" />
     <MESSAGE value="feat: exemplo lista genérica" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exemplo lista genérica" />
+    <MESSAGE value="feat: List shopping cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: List shopping cart" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
