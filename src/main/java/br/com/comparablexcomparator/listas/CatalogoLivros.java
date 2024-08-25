@@ -1,7 +1,6 @@
 package br.com.comparablexcomparator.listas;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 //pesquisa lista: testando os métodos
