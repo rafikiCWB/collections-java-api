@@ -91,8 +91,8 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <source>22</source>
+                    <target>22</target>
                     <compilerArgs>--enable-preview</compilerArgs>
                 </configuration>
             </plugin>
