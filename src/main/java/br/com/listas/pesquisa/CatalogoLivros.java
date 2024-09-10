@@ -1,29 +1,12 @@
-package br.com.comparablexcomparator.listas;
+package br.com.listas.pesquisa;
+
+import br.com.comparablexcomparator.Livro;
 
 import java.util.ArrayList;
 import java.util.List;
 
 //pesquisa lista: testando os métodos
 public class CatalogoLivros {
-
-    public static void main(String[] args) {
-
-        var catalogoLivros = new CatalogoLivros();
-
-        catalogoLivros.adicionarLivro(new Livro("Livro-1", "Autor-1", 2024));
-        catalogoLivros.adicionarLivro("Livro-2", "Autor-2", 2025);
-        System.out.println(catalogoLivros.livroList);
-
-        System.out.println("================");
-        System.out.println(catalogoLivros.pesquisarAutor("Autor-1"));
-
-        System.out.println("==================");
-        System.out.println(catalogoLivros.pesquisarPorIntervaloAnos(2024, 2024));
-
-        System.out.println("===================");
-        System.out.println(catalogoLivros.pesquisarPorTitulo("Livro-2"));
-
-    }
 
     //atributo
     final List<Livro> livroList;
@@ -58,7 +41,7 @@ public class CatalogoLivros {
         List<Livro> livrosPorAno = new ArrayList<>();
         if (!livroList.isEmpty()) {
             for (Livro l : livroList) {
-                if (l.anoPublicacao() >= anoInicial && l.anoPublicacao() <= anoFinal) {
+                if (l.ano() >= anoInicial && l.ano() <= anoFinal) {
                     livrosPorAno.add(l);
                 }
             }
@@ -83,5 +66,23 @@ public class CatalogoLivros {
         }
     }
 
-}
+    public static void main(String[] args) {
 
+        var catalogoLivros = new CatalogoLivros();
+
+        catalogoLivros.adicionarLivro(new Livro("Livro-1", "Autor-1", 2024));
+        catalogoLivros.adicionarLivro("Livro-2", "Autor-2", 2025);
+        catalogoLivros.adicionarLivro("Livro-3", "Autor-3", 2025);
+        System.out.println(catalogoLivros.livroList);
+
+        System.out.println("================");
+        System.out.println(catalogoLivros.pesquisarAutor("Autor-1"));
+
+        System.out.println("==================");
+        System.out.println(catalogoLivros.pesquisarPorIntervaloAnos(2024, 2025));
+
+        System.out.println("===================");
+        System.out.println(catalogoLivros.pesquisarPorTitulo("Livro-2"));
+
+    }
+}

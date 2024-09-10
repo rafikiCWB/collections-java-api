@@ -1,4 +1,4 @@
-package br.com.comparablexcomparator.listas;
+package br.com.listas.operacoesbasicas;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,7 +37,6 @@ public class CarrinhoDeCompras {
         } else {
             System.out.println("Lista vazia");
         }
-
     }
 
     public double calcularValorTotal() {
@@ -68,9 +67,5 @@ public class CarrinhoDeCompras {
         System.out.println("================");
 
         System.out.println(coisas.calcularValorTotal());
-
-
-
     }
-
 }

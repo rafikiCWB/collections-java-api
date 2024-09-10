@@ -1,4 +1,4 @@
-package br.com.comparablexcomparator.listas
+package br.com.listas.operacoesbasicas
 
 data class Item(
     var nome: String,
