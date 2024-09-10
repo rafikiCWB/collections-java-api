@@ -4,12 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5fb9318-81b3-4d01-941b-937337cb6942" name="Changes" comment="feat: List shopping cart">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/listas/CatalogoLivros.java" afterDir="false" />
+    <list default="true" id="b5fb9318-81b3-4d01-941b-937337cb6942" name="Changes" comment="sado">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/JavaCollections.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/listas/operacoesbasicas/ExceptionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/listas/operacoesbasicas/ListaDeTarefas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/listas/operacoesbasicas/Tarefa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/listas/ordenacao/OrdenacaoPessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/listas/ordenacao/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/random/Soma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/ConjuntoConvidados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/ConjuntoPalavrasUnicas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/Convidado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/comparableXcomparator/set/ConjuntoConvidadosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/generics/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/generics/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/Soma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/generics/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/generics/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/listas/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/listas/operacoesbasicas/CarrinhoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/listas/CatalogoLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/listas/pesquisa/CatalogoLivros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/listas/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/listas/operacoesbasicas/Item.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/listas/Livro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/comparableXcomparator/SomaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/comparableXcomparator/SomaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +37,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Data Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin Script" />
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -30,8 +50,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rafikiCWB&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rafikiCWB/collections-java-api.git&quot;,
+    &quot;accountId&quot;: &quot;ca7f4273-4b00-4566-a89c-a33e7058112b&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Eclipse Adoptium/jdk-21.0.4.7-hotspot/lib/src.zip!/java.base/java/lang/Comparable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/graalvm-jdk-21_windows-x64_bin/graalvm-jdk-21.0.4+8.1/lib/src.zip!/java.base/java/lang/ArrayIndexOutOfBoundsException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/graalvm-jdk-21_windows-x64_bin/graalvm-jdk-21.0.4+8.1/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -50,9 +84,26 @@
   "keyToString": {
     "Application.CarrinhoDeCompras.executor": "Run",
     "Application.CatalogoLivros.executor": "Run",
+    "Application.ConjuntoConvidades.executor": "Run",
+    "Application.ConjuntoConvidados.executor": "Run",
+    "Application.ConjuntoPalavrasUnicas.executor": "Run",
+    "Application.GenericsExempleList.executor": "Run",
+    "Application.GenericsExempleMap.executor": "Run",
+    "Application.GenericsExempleSet.executor": "Run",
+    "Application.ListaDeTarefas.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.OrdenacaoPessoa.executor": "Run",
     "Application.Program.executor": "Run",
+    "Application.Soma.executor": "Run",
     "Application.br.com.comparablexcomparator.Program.executor": "Run",
     "JUnit.All in collections-java-api.executor": "Run",
+    "JUnit.ConjuntoConvidadosTest.executor": "Run",
+    "JUnit.ConjuntoConvidadosTest.testCountGuests_multipleGuestsDifferentCode.executor": "Run",
+    "JUnit.ConjuntoConvidadosTest.testCountGuests_multipleGuestsSameCode.executor": "Run",
+    "JUnit.ConjuntoConvidadosTest.testCountGuests_singleGuest.executor": "Run",
+    "JUnit.SomaTest.executor": "Run",
+    "JUnit.SomaTest.somar.executor": "Run",
+    "Kotlin script (Beta).ConjuntoPalavrasUnicas.java.kts.executor": "Run",
     "Kotlin.ItemInKKt.executor": "Run",
     "Kotlin.ItemInKotlinKt (1).executor": "Run",
     "Kotlin.ItemInKotlinKt.executor": "Run",
@@ -75,7 +126,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.17888564",
     "project.structure.side.proportion": "0.25879917",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,33 +137,30 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rafae\IdeaProjects\logic\collections-java-api\assets" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.comparablexcomparator.set" />
       <recent name="br.com.comparableXcomparator" />
+    </key>
+    <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="br.com.listas.operacoesbasicas" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.comparablexcomparator.listas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
-    <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.listas.CarrinhoDeCompras" />
-      <module name="collections-java-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.comparablexcomparator.listas.Item" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OrdenacaoPessoa">
     <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.listas.CatalogoLivros" />
+      <option name="MAIN_CLASS_NAME" value="br.com.listas.pesquisa.CatalogoLivros" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.comparablexcomparator.listas.*" />
+          <option name="PATTERN" value="br.com.listas.pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.generics.Program" />
+    <configuration name="GenericsExempleSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.generics.GenericsExempleSet" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.comparablexcomparator.generics.*" />
+          <option name="PATTERN" value="br.com.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,35 +181,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemInKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.listas.ItemInKotlinKt" />
+    <configuration name="ListaDeTarefas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.listas.operacoesbasicas.ListaDeTarefas" />
       <module name="collections-java-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.listas.operacoesbasicas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.listas.ItemKt" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.comparablexcomparator.Main" />
       <module name="collections-java-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.comparablexcomparator.Livro" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdenacaoPessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.listas.ordenacao.OrdenacaoPessoa" />
+      <module name="collections-java-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.listas.ordenacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.OrdenacaoPessoa" />
         <item itemvalue="Application.CatalogoLivros" />
-        <item itemvalue="Application.CarrinhoDeCompras" />
-        <item itemvalue="Kotlin.ItemKt" />
-        <item itemvalue="Kotlin.ItemInKotlinKt" />
+        <item itemvalue="Application.ListaDeTarefas" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GenericsExempleSet" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.40" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.40" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -185,7 +258,19 @@
       <workItem from="1724458423779" duration="7814000" />
       <workItem from="1724581809230" duration="12000" />
       <workItem from="1724581844878" duration="1377000" />
-      <workItem from="1724618797721" duration="253000" />
+      <workItem from="1724618797721" duration="3685000" />
+      <workItem from="1724622558268" duration="4703000" />
+      <workItem from="1724672502984" duration="3190000" />
+      <workItem from="1725187228872" duration="1280000" />
+      <workItem from="1725201777847" duration="16000" />
+      <workItem from="1725202171118" duration="5293000" />
+      <workItem from="1725318653471" duration="5741000" />
+      <workItem from="1725362645145" duration="8854000" />
+      <workItem from="1725447030246" duration="13914000" />
+      <workItem from="1725523788237" duration="18222000" />
+      <workItem from="1725576166533" duration="4740000" />
+      <workItem from="1725971832138" duration="1769000" />
+      <workItem from="1725973649597" duration="12320000" />
     </task>
     <task id="LOCAL-00001" summary="feat: projeto criado">
       <option name="closed" value="true" />
@@ -235,7 +320,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724450811004</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add new CatalogoLivros functionality&#10;&#10;This commit introduces the CatalogoLivros class and related Livro record for managing book catalogs. It also updates project configurations, corrects Java SDK settings, and moves Box and Program into the generics package for better organization.">
+      <option name="closed" value="true" />
+      <created>1724619154157</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724619154157</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: refactor class, retirando imports não usado">
+      <option name="closed" value="true" />
+      <created>1724619256648</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724619256648</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +347,9 @@
     <MESSAGE value="feat: simple test" />
     <MESSAGE value="feat: exemplo lista genérica" />
     <MESSAGE value="feat: List shopping cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: List shopping cart" />
+    <MESSAGE value="Add new CatalogoLivros functionality&#10;&#10;This commit introduces the CatalogoLivros class and related Livro record for managing book catalogs. It also updates project configurations, corrects Java SDK settings, and moves Box and Program into the generics package for better organization." />
+    <MESSAGE value="fix: refactor class, retirando imports não usado" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: refactor class, retirando imports não usado" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
