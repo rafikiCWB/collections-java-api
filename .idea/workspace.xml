@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5fb9318-81b3-4d01-941b-937337cb6942" name="Changes" comment="fix: coisas em xml que eh criado automaticamente">
+    <list default="true" id="b5fb9318-81b3-4d01-941b-937337cb6942" name="Changes" comment="feat: Operações básicas usando a collection Map">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/map/ordenacao/AgendaEventos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/map/ordenacao/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/map/ordenacao/LivrariaOnline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/map/ordenacao/Livro.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/br/com/random/Soma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/ExceptionSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/operacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/operacoesBasicas/ConjuntoPalavrasUnicas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/operacoesBasicas/Convidado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/ordenacao/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/ordenacao/CadastroProtudos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/ordenacao/GerenciadorAlunos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/ordenacao/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/pesquisa/AgendaContatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/pesquisa/Contato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/pesquisa/ListaTarefas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/set/pesquisa/Tarefa.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/br/com/comparableXcomparator/set/ConjuntoConvidadosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/map/ordenacao/LivrariaOnlineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/Soma.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/comparablexcomparator/generics/Box.java" beforeDir="false" />
@@ -38,11 +31,11 @@
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Data Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin Script" />
-        <option value="Exception" />
         <option value="Record" />
+        <option value="Exception" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -82,18 +75,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AgendaContatos.executor": "Run",
+    "Application.AgendaEventos.executor": "Run",
     "Application.CadastroProtudos.executor": "Run",
     "Application.CarrinhoDeCompras.executor": "Run",
     "Application.CatalogoLivros.executor": "Run",
     "Application.ConjuntoConvidades.executor": "Run",
     "Application.ConjuntoConvidados.executor": "Run",
     "Application.ConjuntoPalavrasUnicas.executor": "Run",
+    "Application.Dicionario.executor": "Run",
     "Application.GenericsExempleList.executor": "Run",
     "Application.GenericsExempleMap.executor": "Run",
     "Application.GenericsExempleSet.executor": "Run",
     "Application.GerenciadorAlunos.executor": "Run",
     "Application.ListaDeTarefas.executor": "Run",
     "Application.ListaTarefas.executor": "Run",
+    "Application.LivrariaOnline.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.OrdenacaoPessoa.executor": "Run",
     "Application.Program.executor": "Run",
@@ -104,6 +100,8 @@
     "JUnit.ConjuntoConvidadosTest.testCountGuests_multipleGuestsDifferentCode.executor": "Run",
     "JUnit.ConjuntoConvidadosTest.testCountGuests_multipleGuestsSameCode.executor": "Run",
     "JUnit.ConjuntoConvidadosTest.testCountGuests_singleGuest.executor": "Run",
+    "JUnit.LivrariaOnlineTest.testExibirLivrosOrdenadosPorAutor.executor": "Run",
+    "JUnit.LivrariaOnlineTest.testLivrosOrdenadosPorPreco.executor": "Run",
     "JUnit.SomaTest.executor": "Run",
     "JUnit.SomaTest.somar.executor": "Run",
     "Kotlin script (Beta).ConjuntoPalavrasUnicas.java.kts.executor": "Run",
@@ -129,7 +127,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.17888564",
     "project.structure.side.proportion": "0.25879917",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "settings.editor.selected.configurable": "reference.settings.grazie.pro",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -147,6 +145,7 @@
       <recent name="br.com" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.map.ordenacao" />
       <recent name="br.com.comparablexcomparator.set" />
       <recent name="br.com.comparableXcomparator" />
     </key>
@@ -158,13 +157,13 @@
       <recent name="br.com.comparablexcomparator.listas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AgendaContatos">
-    <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.set.pesquisa.AgendaContatos" />
+  <component name="RunManager" selected="Application.LivrariaOnline">
+    <configuration name="AgendaEventos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.map.ordenacao.AgendaEventos" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.set.pesquisa.*" />
+          <option name="PATTERN" value="br.com.map.ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CadastroProtudos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.set.ordenacao.CadastroProtudos" />
+    <configuration name="Dicionario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.map.operacoesBasicas.Dicionario" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.set.ordenacao.*" />
+          <option name="PATTERN" value="br.com.map.operacoesBasicas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConjuntoConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.set.operacoesBasicas.ConjuntoConvidados" />
+    <configuration name="LivrariaOnline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.map.ordenacao.LivrariaOnline" />
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.set.operacoesBasicas.*" />
+          <option name="PATTERN" value="br.com.map.ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,39 +197,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GerenciadorAlunos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.set.ordenacao.GerenciadorAlunos" />
+    <configuration name="LivrariaOnlineTest.testExibirLivrosOrdenadosPorAutor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.set.ordenacao.*" />
+          <option name="PATTERN" value="br.com.map.ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="br.com.map.ordenacao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.map.ordenacao.LivrariaOnlineTest" />
+      <option name="METHOD_NAME" value="testExibirLivrosOrdenadosPorAutor" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaTarefas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.set.pesquisa.ListaTarefas" />
+    <configuration name="LivrariaOnlineTest.testLivrosOrdenadosPorPreco" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collections-java-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.set.pesquisa.*" />
+          <option name="PATTERN" value="br.com.map.ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="br.com.map.ordenacao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.map.ordenacao.LivrariaOnlineTest" />
+      <option name="METHOD_NAME" value="testLivrosOrdenadosPorPreco" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AgendaContatos" />
-        <item itemvalue="Application.ListaTarefas" />
-        <item itemvalue="Application.CadastroProtudos" />
-        <item itemvalue="Application.GerenciadorAlunos" />
-        <item itemvalue="Application.ConjuntoConvidados" />
+        <item itemvalue="Application.LivrariaOnline" />
+        <item itemvalue="JUnit.LivrariaOnlineTest.testExibirLivrosOrdenadosPorAutor" />
+        <item itemvalue="JUnit.LivrariaOnlineTest.testLivrosOrdenadosPorPreco" />
+        <item itemvalue="Application.AgendaEventos" />
+        <item itemvalue="Application.Dicionario" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +280,7 @@
       <workItem from="1725576166533" duration="4740000" />
       <workItem from="1725971832138" duration="1769000" />
       <workItem from="1725973649597" duration="22474000" />
-      <workItem from="1726011754845" duration="12388000" />
+      <workItem from="1726011754845" duration="26550000" />
     </task>
     <task id="LOCAL-00001" summary="feat: projeto criado">
       <option name="closed" value="true" />
@@ -357,7 +362,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725987356451</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: Collection do tipo Set">
+      <option name="closed" value="true" />
+      <created>1726070628719</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726070628719</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: Operações básicas usando a collection Map">
+      <option name="closed" value="true" />
+      <created>1726072746011</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726072746011</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,8 +392,12 @@
     <MESSAGE value="Add new CatalogoLivros functionality&#10;&#10;This commit introduces the CatalogoLivros class and related Livro record for managing book catalogs. It also updates project configurations, corrects Java SDK settings, and moves Box and Program into the generics package for better organization." />
     <MESSAGE value="fix: refactor class, retirando imports não usado" />
     <MESSAGE value="feat: Adicionado novas formas de manipulação de List, um novo README e uma imagem da hierarquia das Collections." />
+    <MESSAGE value="feat:" />
     <MESSAGE value="fix: coisas em xml que eh criado automaticamente" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: coisas em xml que eh criado automaticamente" />
+    <MESSAGE value="fix:" />
+    <MESSAGE value="feat: Collection do tipo Set" />
+    <MESSAGE value="feat: Operações básicas usando a collection Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Operações básicas usando a collection Map" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
